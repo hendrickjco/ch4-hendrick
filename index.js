@@ -19,3 +19,17 @@ function removeBGC() {
     c_rock.style.backgroundColor = "";
     console.log("bye com rock");
 }
+
+c_paper.addEventListener("mouseover", setBGC);
+c_paper.addEventListener("mouseleave", removeBGC);
+c_paper.addEventListener("click");
+
+function setBGC() {
+    c_rock.style.backgroundColor = "red";
+    console.log("Com Rock");
+}
+
+function removeBGC() {
+    c_rock.style.backgroundColor = "";
+    console.log("bye com rock");
+}
