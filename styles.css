@@ -1,0 +1,48 @@
+body {
+    background-color: #cf7e3b;
+}
+
+header {
+    background-color: #cf7e3b;
+    height: 12vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.logohead {
+    /* size: 5mm; */
+    width: 5px;
+    height: 5px;
+}
+
+.plr1 {
+    font-weight: bold;
+}
+
+.cmptr {
+    font-weight: bold;
+}
+
+.VS {
+    font-size: 60px;
+    color: rgb(202, 5, 5);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+}
+
+
+/* .scrcom::after {
+    height: 100%;
+    left: -35%;
+    top: 0;
+    transform: skew(50deg);
+    transition-duration: 0.6s;
+    transform-origin: top left;
+    width: 0;
+}
+
+.scrcom {
+    height: 100%;
+    width: 135%;
+} */
